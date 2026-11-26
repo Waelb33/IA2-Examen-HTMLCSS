@@ -3,7 +3,7 @@
     --primary-color: #181724; 
     --secondary-color: #222222; 
     --accent-color: #CAFF52; 
-    --text-color: #252525; 
+    --text-color: #1b1616; 
     --Secondary-text-color: #66646271;
     --bg-color: #E9E7E4; 
     --card-bg: #FFFFFF; 
@@ -64,3 +64,9 @@ h3 {
     align-items: center;
     gap: 24px;
  }
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
